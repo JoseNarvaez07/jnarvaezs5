@@ -35,7 +35,7 @@ public partial class Principal : ContentPage
             {
                 Persona updatedPerson = new Persona
                 {
-                    Id = selectedPerson.Id,
+                    Id = selectedPerson.Id, 
                     Name = updatedName
                 };
 
