@@ -33,6 +33,9 @@
             
             <Button x:Name="btnInsertar"
                     Text="INSERTAR"
+                    TextColor="White"
+                FontSize="18"
+                BackgroundColor="Orange"
                     Clicked="btnInsertar_Clicked"
                     Grid.Row="0"
                     Grid.Column="0">
@@ -40,12 +43,18 @@
 
             <Button x:Name="btnActualizar"
                     Text="ACTUALIZAR"
+                    TextColor="White"
+                    FontSize="18"
+                    BackgroundColor="Orange"
                     Clicked="btnActualizar_Clicked"
                     Grid.Row="0"
                     Grid.Column="1"/>
 
             <Button x:Name="btnEliminar"
                     Text="ELIMINAR"
+                    TextColor="White"
+                    FontSize="18"
+                    BackgroundColor="Red"
                     Clicked="btnEliminar_Clicked"
                     Grid.Row="1"
                     Grid.Column="0"/>
